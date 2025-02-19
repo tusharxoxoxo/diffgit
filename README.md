@@ -19,3 +19,8 @@ python code.py
 # Process the code
 python code_processor.py
 ```
+## Brief
+
+In this, I have tried to generate a dataset in JSON for the top two most trending Python repository on github this month
+![image](https://github.com/user-attachments/assets/4bf4656d-aa48-4724-89f7-3b3dcf7f391a)
+
