@@ -82,3 +82,6 @@ debug.log
 # Project directories
 hummingbot/
 transformers/
+
+!results_i_created_in_my_runs/
+!results_i_created_in_my_runs/**
