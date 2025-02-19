@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+myenv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.history/
+
+# Testing and coverage
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+coverage.xml
+.hypothesis/
+
+# Logs and databases
+*.log
+*.sqlite3
+logs/
+
+# Build artifacts
+*.so
+*.pyd
+*.c
+*.cpp
+!/core/cpp/*.cpp
+
+# Documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.python-version
+
+# MacOS
+.DS_Store
+
+# Project specific
+processed_*.json
+*_lint.json
+*_unparseable.log
+clone_and_lint.log
+
+# Cache directories
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Local development
+*.local
+*.env
+debug.log
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.srl
+
+# Project directories
+hummingbot/
+transformers/
